@@ -1,9 +1,77 @@
-body{
-    background: pink;
+body {
+  font-family: sans-serif;
+  padding: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://images.pexels.com/photos/41949/earth-earth-at-night-night-lights-41949.jpeg");
 }
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
+  color: #073c6d;
+  font-size: 35px;
 }
-footer{
-    text-align: center;
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+  color: #25629b;
+}
+footer {
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #b2c8f6;
+  opacity: 0.6;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.574) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.508) 0px 2px 16px 0px;
+}
+select {
+  width: 25%;
+  padding: 10px;
+  border: 1px solid rgb(3, 3, 103);
+  border-radius: 10px;
+  color: #b2c8f6;
+  font-size: 15px;
+  background: #073c6d;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+  padding: 20px 0;
+  border-bottom: 1px dashed rgb(100, 100, 148);
+}
+.city:last-child {
+  border: none;
+}
+
+.date {
+  opacity: 0.7;
+  text-align: left;
+  color: #25629b;
+}
+
+.time {
+  font-size: 35px;
+  font-weight: bold;
+  color:#25629b;
+}
+.time small {
+  font-size: 18px;
+  vertical-align: super;
+  line-height: 45px;
+}
+footer {
+  margin: 0;
+  color: beige;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 0.6;
+}
+strong {
+  color: #eea6cb;
 }
