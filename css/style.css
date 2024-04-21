@@ -53,6 +53,7 @@ select {
 .date {
   opacity: 0.7;
   color: #25629b;
+  text-align: left;
 }
 
 .time {
